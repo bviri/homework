@@ -17,13 +17,13 @@ void loop() {
     digitalWrite(preHeat, LOW); 
     delay(1000); 
     
-  } else if (bakingTemp > 276 && bakingTemp < 400){
+  } else if (bakingTemp > 276 && bakingTemp < 475){
     digitalWrite(ready, HIGH);
     delay(500);
     digitalWrite(ready, LOW);
     delay(500);
     
-  } else if (bakingTemp > 401 && bakingTemp < 900) {
+  } else if (bakingTemp > 476 && bakingTemp < 1023) {
     digitalWrite(tooHot, HIGH);
     delay(100);
     digitalWrite(tooHot,LOW);
