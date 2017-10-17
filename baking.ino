@@ -4,8 +4,8 @@ int tooHot = 10;
 
 void setup() {
   pinMode(preHeat, OUTPUT); 
-  pinMode(9, OUTPUT); 
-  pinMode(10, OUTPUT); 
+  pinMode(ready, OUTPUT); 
+  pinMode(tooHot, OUTPUT); 
 }
 
 void loop() {
